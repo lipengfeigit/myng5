@@ -1227,7 +1227,7 @@ var ServiceService = (function () {
         var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* URLSearchParams */]();
         options.set("page", "2");
         options.set("per_page", "6");
-        return this.http.get("https://api.github.com/users", { headers: headers, search: options });
+        return this.http.get("https://api.github.com/users", { search: options });
     };
     ServiceService.prototype.getSingleUser = function (gitname) {
         var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
