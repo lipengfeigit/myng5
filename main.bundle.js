@@ -440,7 +440,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "img{\n\twidth: 100%;\n}\ndiv.row{\n\tmargin-left: 0;\n\tmargin-right: 0;\n}\n.row > *{\n\tpadding-left: 0;\n\tpadding-right: 0;\n}\n.user-login{\n\tfont-size: 0.6rem;\n\tbackground: #000;\n\tcolor: #fff;\n\tline-height: 1rem;\n\tmargin-bottom: 0;\n}", ""]);
+exports.push([module.i, "img{\n\twidth: 100%;\n}\ndiv.row{\n\tmargin-left: 0;\n\tmargin-right: 0;\n}\n.row > *{\n\tpadding-left: 0;\n\tpadding-right: 0;\n\t\n}\n.col-xs-6{\n\twidth: 8rem;\n}\n.user-login{\n\tfont-size: 0.6rem;\n\tbackground: #000;\n\tcolor: #fff;\n\tline-height: 1rem;\n\tmargin-bottom: 0;\n}", ""]);
 
 // exports
 
@@ -453,7 +453,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/git-user-list/git-user-list.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\t\n\t<app-git-user *ngFor=\"let user of gitUsers\" [user]=\"user\" class=\"col-md-6\"></app-git-user>\n</div>\n"
+module.exports = "<div class=\"row\">\t\n\t<app-git-user *ngFor=\"let user of gitUsers\" [user]=\"user\" class=\"col-xs-6\"></app-git-user>\n</div>\n"
 
 /***/ }),
 
