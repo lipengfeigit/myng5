@@ -1221,7 +1221,7 @@ var ServiceService = (function () {
     }
     ServiceService.prototype.getUser = function () {
         var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
-            "Authorization": "token 24f2df0792211a8666c28563d428e1b1c69bc909",
+            "Authorization": "token 0e8397f3e8d60e7ee95dfe72b165c4a5c87d6076",
             "Accept": "application/json"
         });
         var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* URLSearchParams */]();
@@ -1231,7 +1231,7 @@ var ServiceService = (function () {
     };
     ServiceService.prototype.getSingleUser = function (gitname) {
         var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
-            "Authorization": "token 24f2df0792211a8666c28563d428e1b1c69bc909",
+            "Authorization": "token 0e8397f3e8d60e7ee95dfe72b165c4a5c87d6076",
             "Accept": "application/json"
         });
         var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* URLSearchParams */]();
